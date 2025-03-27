@@ -1,0 +1,23 @@
+
+
+/* Box Animation */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: moveBox 1s infinite  ;
+}
+
+/* Define Animation */
+@keyframes moveBox {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(40px);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
